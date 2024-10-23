@@ -24,7 +24,7 @@ CREATE TABLE Customers (
     email VARCHAR(215) NOT NULL,
     address TEXT
 );
-
+ex
 -- Create the Orders table
 CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
