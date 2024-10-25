@@ -24,7 +24,7 @@ CREATE TABLE Customers (
     email VARCHAR(215) NOT NULL,
     address TEXT
 );
-ex
+
 -- Create the Orders table
 CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -41,3 +41,4 @@ CREATE TABLE Order_Details (
     quantity DOUBLE NOT NULL,
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
